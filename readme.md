@@ -1,8 +1,8 @@
 <img src="https://avatars2.githubusercontent.com/u/2810941?v=3&s=96" alt="Google Cloud Platform logo" title="Google Cloud Platform" align="right" height="96" width="96"/>
 
-# Cloud functions for callstrike project
+# Cloud functions for {project_name} project
 
-This repo contains all the cloud functions for the serverless callstrike project.
+This repo contains all the cloud functions for the serverless {project} project.
 
 
 ## Deploy
