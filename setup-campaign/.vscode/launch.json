@@ -2,13 +2,13 @@
   "configurations": [
 
     {
-      "name": "Deploy Cloud Function",
+      "name": "Deploy Cloud Function using Cloud Code",
       "type": "cloudcode.cloudfunctions",
       "request": "launch",
-      "functionName": "setup-capmaign",
+      "functionName": "setup-campaign",
       "region": "us-central1",
       "gen": "GEN_2",
-      "revision": "execute-capmaign-00025-qeg",
+      "revision": "execute-campaign-00025-qeg",
       "entryPoint": "start",
       "runtime": "python310",
       "testInput": ""

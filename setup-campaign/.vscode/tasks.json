@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Deploy cloud function using script",
+        "isBackground": true,
+        "type": "shell",
+        "windows": {
+          "command": "powershell -ExecutionPolicy Bypass -File ${workspaceFolder}/.vscode/deploy.ps1"
+        },
+        "linux": {
+          "command": "bash ${workspaceFolder}/.vscode/deploy.sh"
+        },
+        "osx": {
+          "command": "bash ${workspaceFolder}/.vscode/deploy.sh"
+        },
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "presentation": {
+          "reveal": "never"
+        }
+      }
+    ]
+  }
+  
