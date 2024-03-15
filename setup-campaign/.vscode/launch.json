@@ -1,17 +1,6 @@
 {
   "configurations": [
-    {
-      "name": "Deploy Cloud Function",
-      "type": "cloudcode.cloudfunctions",
-      "request": "launch",
-      "functionName": "execute-capmaign",
-      "gen": "GEN_2",
-      "revision": "execute-capmaign-00025-qeg",
-      "entryPoint": "execute_campaign",
-      "testInput": "",
-      "region": "us-central1",
-      "runtime": "python310"
-    },
+
     {
       "name": "Deploy Cloud Function",
       "type": "cloudcode.cloudfunctions",
