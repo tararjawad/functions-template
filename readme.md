@@ -29,3 +29,18 @@ setup a campaign when a tenant creates one
 ### summary:
 ### trigger:
 ### what it does:
+
+
+## GCP Cloud shell tips:
+1. 
+    use git credentials helper so you don't have to login everytime session resets:
+    `git config --global credential.helper store`
+
+2. set gcp project in .bashrc
+    ```
+    nano ~/.bashrc
+    ```
+    ADD:
+    ```
+    gcloud config set project phonecall-bot-v1
+    ```
